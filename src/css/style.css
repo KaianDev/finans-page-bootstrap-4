@@ -1,0 +1,47 @@
+header nav {
+    border-bottom: 1px solid #ddd;
+}
+
+#home {
+    background: #FFC107;
+    color: #fff;
+}
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #eee;
+}
+
+footer a.btn {
+    gap: 30px;
+}
+
+@media (max-width: 360px) {
+    .display-4 {
+        font-size: 2.8em;
+    }
+
+    .lead {
+        font-size: 1.2em;
+    }
+
+    .nav-link {
+        padding: 0.5rem;
+    }
+
+    footer .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (min-width:361px) and (max-width: 577.98px) {
+    .display-4 {
+        font-size: 3.2rem
+    }
+
+    footer .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
